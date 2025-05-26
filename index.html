@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToonStart Animation Editor Help</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        html {
+            scroll-behavior: smooth;
+        }
+        .tool-icon {
+            display: inline-block;
+            width: 1.25em;
+            text-align: center;
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-br from-blue-50 to-indigo-100 text-gray-800 p-4 sm:p-6 md:p-8">
+    <div class="max-w-4xl mx-auto bg-white shadow-xl rounded-xl p-6 sm:p-8 md:p-10 lg:p-12">
+
+        <header class="text-center mb-10">
+            <h1 class="text-4xl sm:text-5xl font-extrabold text-indigo-700 mb-4 leading-tight">
+                Welcome to the ToonStart Animation Editor Help Center!
+            </h1>
+            <p class="text-lg sm:text-xl text-gray-600">
+                Here you'll find everything you need to get started, master powerful features, and troubleshoot common issues. Our goal is to empower you to easily bring your animation ideas to life, frame by frame.
+            </p>
+        </header>
+
+        <nav class="mb-10 p-4 bg-blue-50 rounded-lg shadow-inner">
+            <h2 class="text-2xl font-semibold text-indigo-600 mb-4">Quick Navigation</h2>
+            <ul class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 text-lg">
+                <li><a href="#getting-started" class="text-blue-700 hover:text-blue-900 font-medium transition duration-300">Getting Started</a></li>
+                <li><a href="#features" class="text-blue-700 hover:text-blue-900 font-medium transition duration-300">Editor Features</a></li>
+                <li><a href="#faq" class="text-blue-700 hover:text-blue-900 font-medium transition duration-300">FAQs</a></li>
+                <li><a href="#troubleshooting" class="text-blue-700 hover:text-blue-900 font-medium transition duration-300">Troubleshooting</a></li>
+                <li><a href="#tips-tricks" class="text-blue-700 hover:text-blue-900 font-medium transition duration-300">Tips & Tricks</a></li>
+                <li><a href="#contact-support" class="text-blue-700 hover:text-blue-900 font-medium transition duration-300">Contact & Support</a></li>
+            </ul>
+        </nav>
+
+        <section id="getting-started" class="mb-12 p-6 bg-gray-50 rounded-lg shadow-md">
+            <h2 class="text-3xl font-bold text-indigo-700 mb-6 border-b-2 border-indigo-300 pb-2">
+                Getting Started with ToonStart
+            </h2>
+            <p class="mb-4 text-gray-700">
+                This section will guide new users through the initial steps of using ToonStart.
+            </p>
+
+            <h3 class="text-2xl font-semibold text-indigo-600 mb-3">Your First Animation:</h3>
+            <ul class="list-disc list-inside space-y-2 mb-6 text-gray-700">
+                <li>
+                    <strong class="font-medium">Starting a New Project:</strong> To begin, the editor automatically loads with a blank canvas. Simply start drawing!
+                </li>
+                <li>
+                    <strong class="font-medium">Understanding the Interface:</strong> Familiarize yourself with the <strong class="text-indigo-500">Drawing Tools</strong> on the left, <strong class="text-indigo-500">Drawing Controls</strong> below them, the <strong class="text-indigo-500">Timeline</strong> at the bottom, and <strong class="text-indigo-500">Project Management</strong> options at the top.
+                </li>
+                <li>
+                    <strong class="font-medium">Saving Your Work:</strong> Use the <strong class="text-indigo-500">Save</strong> option under Project Management to save your animation locally in your browser.
+                </li>
+                <li>
+                    <strong class="font-medium">Playing Your Animation:</strong> Click the <strong class="text-indigo-500">Play (<span class="tool-icon">🎬</span>)</strong> button to see your creation in motion.
+                </li>
+            </ul>
+
+            <h3 class="text-2xl font-semibold text-indigo-600 mb-3">Browser Compatibility:</h3>
+            <p class="mb-4 text-gray-700">
+                ToonStart runs best on modern web browsers like Chrome, Firefox, Safari, and Edge. Ensure your browser is up-to-date for the best experience.
+            </p>
+
+            <h3 class="text-2xl font-semibold text-indigo-600 mb-3">Optimal Viewing:</h3>
+            <ul class="list-disc list-inside space-y-2 text-gray-700">
+                <li>
+                    <strong class="font-medium">Browser Zoom:</strong> If the interface feels too large or small, adjust your browser's zoom level (e.g., <kbd>Ctrl</kbd>/<kbd>Cmd</kbd> + <kbd>+</kbd> or <kbd>-</kbd>).
+                </li>
+                <li>
+                    <strong class="font-medium">Canvas Navigation (Pan Tool):</strong> Use the <strong class="text-indigo-500">Pan (<span class="tool-icon">✋</span>)</strong> tool to move around your canvas if your drawing extends beyond the visible area.
+                </li>
+            </ul>
+        </section>
+
+        <section id="features" class="mb-12 p-6 bg-gray-50 rounded-lg shadow-md">
+            <h2 class="text-3xl font-bold text-indigo-700 mb-6 border-b-2 border-indigo-300 pb-2">
+                ToonStart Animation Editor Features
+            </h2>
+            <p class="mb-4 text-gray-700">
+                Dive into the specifics of each tool and control available in ToonStart.
+            </p>
+
+            <h3 class="text-2xl font-semibold text-indigo-600 mb-4">Drawing Tools</h3>
+            <p class="mb-4 text-gray-700">These are your primary tools for creating your animation frames.</p>
+            <ul class="list-disc list-inside space-y-3 mb-6 text-gray-700">
+                <li>
+                    <strong class="font-medium">Brush (<span class="tool-icon">✎</span>):</strong> Select this tool for freehand drawing. Use it to sketch, outline, and add details to your frames.
+                </li>
+                <li>
+                    <strong class="font-medium">Eraser (<span class="tool-icon">🩹</span>):</strong> Use the eraser to remove any unwanted lines or areas from your drawing.
+                </li>
+                <li>
+                    <strong class="font-medium">Fill (<span class="tool-icon">🪣</span>):</strong> Quickly fill enclosed shapes and areas with your selected color.
+                </li>
+                <li>
+                    <strong class="font-medium">Eyedropper (<span class="tool-icon">💉</span>):</strong> Pick any color directly from your canvas to set it as your active drawing color. Perfect for matching existing colors.
+                </li>
+                <li>
+                    <strong class="font-medium">Pan (<span class="tool-icon">✋</span>):</strong> Click and drag with this tool to move your view of the canvas, allowing you to access all parts of your drawing.
+                </li>
+            </ul>
+
+            <h3 class="text-2xl font-semibold text-indigo-600 mb-4">Drawing Controls</h3>
+            <p class="mb-4 text-gray-700">Refine your drawing experience with these customizable options.</p>
+            <ul class="list-disc list-inside space-y-3 mb-6 text-gray-700">
+                <li>
+                    <strong class="font-medium">Brush Color:</strong> A color picker allows you to choose the exact color for your <strong class="text-indigo-500">Brush (<span class="tool-icon">✎</span>)</strong> and <strong class="text-indigo-500">Fill (<span class="tool-icon">🪣</span>)</strong> tools.
+                </li>
+                <li>
+                    <strong class="font-medium">Brush Size:</strong> Adjust this slider to change the thickness of your <strong class="text-indigo-500">Brush (<span class="tool-icon">✎</span>)</strong> strokes and the size of your <strong class="text-indigo-500">Eraser (<span class="tool-icon">🩹</span>)</strong>.
+                </li>
+                <li>
+                    <strong class="font-medium">Palm Rejection:</strong> Toggle this feature <strong class="text-indigo-500">On/Off</strong>. When enabled, the editor will primarily respond to stylus input, ignoring accidental touches from your fingers or palm – ideal for drawing on touch-enabled devices.
+                </li>
+            </ul>
+
+            <h3 class="text-2xl font-semibold text-indigo-600 mb-4">Frame Management</h3>
+            <p class="mb-4 text-gray-700">Control the flow and content of your animation with these frame-specific actions.</p>
+            <ul class="list-disc list-inside space-y-3 mb-6 text-gray-700">
+                <li>
+                    <strong class="font-medium">Add New:</strong> Click to create a completely new, blank frame after the current one.
+                </li>
+                <li>
+                    <strong class="font-medium">Delete:</strong> Remove the currently selected frame from your animation. Be careful, this action removes the frame and its content permanently.
+                </li>
+                <li>
+                    <strong class="font-medium">Duplicate:</strong> Create an exact copy of the current frame and insert it immediately after. Useful for slight adjustments between frames.
+                </li>
+                <li>
+                    <strong class="font-medium">Clear:</strong> Erase all content from the current frame, leaving it blank but still part of your animation sequence.
+                </li>
+            </ul>
+
+            <h3 class="text-2xl font-semibold text-indigo-600 mb-4">History</h3>
+            <p class="mb-4 text-gray-700">Correct mistakes and revert changes with ease.</p>
+            <ul class="list-disc list-inside space-y-3 mb-6 text-gray-700">
+                <li>
+                    <strong class="font-medium">Undo (<span class="tool-icon">↩️</span>):</strong> Revert your last drawing action. You can typically undo multiple steps.
+                </li>
+                <li>
+                    <strong class="font-medium">Redo (<span class="tool-icon">↪️</span>):</strong> Reapply an action that you have undone.
+                </li>
+            </ul>
+
+            <h3 class="text-2xl font-semibold text-indigo-600 mb-4">Project Management</h3>
+            <p class="mb-4 text-gray-700">Handle your animation projects with these essential functions.</p>
+            <ul class="list-disc list-inside space-y-3 mb-6 text-gray-700">
+                <li>
+                    <strong class="font-medium">Save:</strong> Save your current animation project locally in your browser's storage. Your progress will be available the next time you visit ToonStart on the same browser.
+                </li>
+                <li>
+                    <strong class="font-medium">Load:</strong> Load a previously saved animation project from your browser's local storage.
+                </li>
+                <li>
+                    <strong class="font-medium">Export GIF:</strong> Export your complete animation as an animated GIF file.
+                </li>
+            </ul>
+
+            <h3 class="text-2xl font-semibold text-indigo-600 mb-4">Animation Playback</h3>
+            <p class="mb-4 text-gray-700">Control how your animation plays and its speed.</p>
+            <ul class="list-disc list-inside space-y-3 mb-6 text-gray-700">
+                <li>
+                    <strong class="font-medium">Play (<span class="tool-icon">🎬</span>):</strong> Start playing your animation from the current frame.
+                </li>
+                <li>
+                    <strong class="font-medium">Pause (<span class="tool-icon">⏸️</span>):</strong> Pause the animation playback at the current frame.
+                </li>
+                <li>
+                    <strong class="font-medium">Stop (<span class="tool-icon">🛑</span>):</strong> Stop the animation playback and return to the very first frame of your animation.
+                </li>
+                <li>
+                    <strong class="font-medium">FPS (Frames Per Second):</strong> Adjust this slider to control the playback speed of your animation. Higher FPS means a faster, smoother animation, while lower FPS creates a choppier, slower effect.
+                </li>
+            </ul>
+
+            <h3 class="text-2xl font-semibold text-indigo-600 mb-4">Creative Ideas</h3>
+            <p class="mb-4 text-gray-700">Get a boost of inspiration for your next frame!</p>
+            <ul class="list-disc list-inside space-y-3 mb-6 text-gray-700">
+                <li>
+                    <strong class="font-medium">Generate Idea:</strong> Click this button to open a modal where you can input a text prompt. Our integrated AI model will then provide a creative drawing idea tailored for your animation frame, helping to spark your imagination!
+                </li>
+            </ul>
+
+            <h3 class="text-2xl font-semibold text-indigo-600 mb-4">Information</h3>
+            <p class="mb-4 text-gray-700">Access helpful tips and stay up-to-date with ToonStart.</p>
+            <ul class="list-disc list-inside space-y-3 text-gray-700">
+                <li>
+                    <strong class="font-medium">Help:</strong> (This page!) Provides tips on browser zoom, canvas navigation, and detailed explanations of all features.
+                </li>
+                <li>
+                    <strong class="font-medium">Updates:</strong> Displays a history of recent updates, new features, and improvements that have been added to the ToonStart Animation Editor. Check here to see what's new!
+                </li>
+            </ul>
+        </section>
+
+        <section id="faq" class="mb-12 p-6 bg-gray-50 rounded-lg shadow-md">
+            <h2 class="text-3xl font-bold text-indigo-700 mb-6 border-b-2 border-indigo-300 pb-2">
+                Frequently Asked Questions (FAQ)
+            </h2>
+            <div class="space-y-6 text-gray-700">
+                <div>
+                    <h3 class="text-xl font-semibold text-indigo-600 mb-2">Q: My animation isn't playing, or it's playing too fast/slow.</h3>
+                    <p class="pl-4">
+                        <strong class="font-medium">A:</strong> Check your <strong class="text-indigo-500">FPS (Frames Per Second)</strong> slider to adjust the speed. Also, ensure you have multiple frames with distinct content to see movement.
+                    </p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold text-indigo-600 mb-2">Q: Why can't I see my entire drawing on the canvas?</h3>
+                    <p class="pl-4">
+                        <strong class="font-medium">A:</strong> Use the <strong class="text-indigo-500">Pan (<span class="tool-icon">✋</span>)</strong> tool to move the canvas view, or try adjusting your browser's zoom level.
+                    </p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold text-indigo-600 mb-2">Q: Where are my saved projects stored?</h3>
+                    <p class="pl-4">
+                        <strong class="font-medium">A:</strong> Your projects are saved locally in your browser's storage. This means they are tied to the specific browser and device you used to save them. Clearing your browser's data (cookies, cache) may delete your saved projects.
+                    </p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold text-indigo-600 mb-2">Q: Can I share my animation with others?</h3>
+                    <p class="pl-4">
+                        <strong class="font-medium">A:</strong> The **Export GIF** feature might work soon, but as of now it doesn't always perform as expected. I'm trying my best to fix it!
+                    </p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold text-indigo-600 mb-2">Q: What if I accidentally delete a frame?</h3>
+                    <p class="pl-4">
+                        <strong class="font-medium">A:</strong> Currently, frame deletion is permanent. Always use the <strong class="text-indigo-500">Undo (<span class="tool-icon">↩️</span>)</strong> button immediately if you delete a frame by mistake and haven't performed other actions.
+                    </p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold text-indigo-600 mb-2">Q: How do I get more drawing ideas?</h3>
+                    <p class="pl-4">
+                        <strong class="font-medium">A:</strong> Use the <strong class="text-indigo-500">Generate Idea</strong> feature to get AI-powered creative prompts!
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="troubleshooting" class="mb-12 p-6 bg-gray-50 rounded-lg shadow-md">
+            <h2 class="text-3xl font-bold text-indigo-700 mb-6 border-b-2 border-indigo-300 pb-2">
+                Troubleshooting & Common Issues
+            </h2>
+            <div class="space-y-6 text-gray-700">
+                <div>
+                    <h3 class="text-xl font-semibold text-indigo-600 mb-2">Lagging Performance:</h3>
+                    <ul class="list-disc list-inside pl-4 space-y-2">
+                        <li>Ensure you have a stable internet connection (if applicable).</li>
+                        <li>Close other demanding browser tabs or applications.</li>
+                        <li>For very complex animations, consider breaking them into smaller parts.</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold text-indigo-600 mb-2">Exported GIF is Low Quality/Too Large:</h3>
+                    <ul class="list-disc list-inside pl-4 space-y-2">
+                        <li>The quality and file size of GIFs are highly dependent on the number of frames, colors, and resolution. Try reducing the number of frames or simplifying your artwork.</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold text-indigo-600 mb-2">Palm Rejection isn't working:</h3>
+                    <ul class="list-disc list-inside pl-4 space-y-2">
+                        <li>Make sure the <strong class="text-indigo-500">Palm Rejection</strong> toggle is switched to <strong class="text-indigo-500">On</strong>. Also, ensure your stylus is properly connected and recognized by your device.</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold text-indigo-600 mb-2">My previously saved project isn't loading.</h3>
+                    <ul class="list-disc list-inside pl-4 space-y-2">
+                        <li>Ensure you are using the <em class="font-medium">same browser</em> and <em class="font-medium">same device</em> that you used to save the project. If you've cleared your browser's cache or data, local saves may have been removed.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="tips-tricks" class="mb-12 p-6 bg-gray-50 rounded-lg shadow-md">
+            <h2 class="text-3xl font-bold text-indigo-700 mb-6 border-b-2 border-indigo-300 pb-2">
+                Tips & Tricks
+            </h2>
+            <ul class="list-disc list-inside space-y-4 text-gray-700">
+                <li>
+                    <strong class="font-medium">Keyboard Shortcuts:</strong> While ToonStart is designed for touch and mouse, explore browser-level shortcuts like <kbd>Ctrl</kbd>/<kbd>Cmd</kbd> + <kbd>Z</kbd> for Undo (browser-wide).
+                </li>
+                <li>
+                    <strong class="font-medium">Layering with Frames:</strong> Create depth and movement by subtly changing elements across multiple frames. Use <strong class="text-indigo-500">Duplicate</strong> to make small adjustments.
+                </li>
+                <li>
+                    <strong class="font-medium">Experiment with FPS:</strong> Play around with the <strong class="text-indigo-500">FPS</strong> slider to achieve different animation styles, from fast-paced action to slow, deliberate movements.
+                </li>
+                <li>
+                    <strong class="font-medium">Use Generate Idea often:</strong> Don't hesitate to use the <strong class="text-indigo-500">Generate Idea</strong> feature even if you have a plan; it might give you a fresh perspective!
+                </li>
+            </ul>
+        </section>
+
+        <section id="contact-support" class="p-6 bg-gray-50 rounded-lg shadow-md">
+            <h2 class="text-3xl font-bold text-indigo-700 mb-6 border-b-2 border-indigo-300 pb-2">
+                Contact & Support
+            </h2>
+            <p class="mb-6 text-gray-700">
+                If you've reviewed the help page and still have questions or encounter issues, please reach out!
+            </p>
+            <ul class="list-disc list-inside space-y-3 text-gray-700">
+                <li>
+                    <strong class="font-medium">Report a Bug:</strong> <a href="#" class="text-blue-600 hover:underline">Link to your bug report form/email address</a>
+                </li>
+                <li>
+                    <strong class="font-medium">Feature Request:</strong> <a href="#" class="text-blue-600 hover:underline">Link to your feature request form/email address or suggestion box</a>
+                </li>
+                <li>
+                    <strong class="font-medium">General Inquiry:</strong> <a href="#" class="text-blue-600 hover:underline">Link to a general contact form/email address</a>
+                </li>
+            </ul>
+        </section>
+
+        <footer class="text-center mt-12 text-gray-500 text-sm">
+            <p>&copy; 2025 ToonStart Animation Editor. All rights reserved.</p>
+            <p class="text-xs mt-1 text-gray-400">S.S. - S.H.</p>
+        </footer>
+
+    </div>
+</body>
+</html>
